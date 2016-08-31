@@ -23,7 +23,7 @@ class QuickApi {
     start() {
         this.app.use(bodyParser.json());
 
-        this.setupLogging()
+        return this.setupLogging()
             .then(() => this.createRoutes())
             .then(() => this.loadBuckets())
             .then(() => this.app.listen(this.port, () => this.log.info(`Listening on port ${this.port} with buckets located in '${this.bucketPath}'`)))
