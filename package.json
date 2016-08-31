@@ -1,0 +1,19 @@
+{
+  "name": "quick-api",
+  "version": "1.0.0",
+  "description": "The quickest way to create an api lol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarsVonQualen/quick-api.git"
+  },
+  "author": "Lars von Qualen <larsvonqualen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LarsVonQualen/quick-api/issues"
+  },
+  "homepage": "https://github.com/LarsVonQualen/quick-api#readme"
+}
