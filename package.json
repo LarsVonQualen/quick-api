@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/LarsVonQualen/quick-api/issues"
   },
-  "homepage": "https://github.com/LarsVonQualen/quick-api#readme"
+  "homepage": "https://github.com/LarsVonQualen/quick-api#readme",
+  "dependencies": {
+    "bluebird": "^3.4.5",
+    "express": "^4.14.0",
+    "express-winston": "^2.0.0",
+    "lodash": "^4.15.0",
+    "sanitize-filename": "^1.6.0",
+    "uuid": "^2.0.2",
+    "winston": "^2.2.0"
+  }
 }
